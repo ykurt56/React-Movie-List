@@ -16,7 +16,10 @@ function Favorite() {
 
   if (!favorites || favorites.length === 0) {
     return (
-      <div className="not-found">Henüz favorilere eklenmiş bir film yok.</div>
+      <div className="not-found">
+        <h1> Henüz favorilere eklenmiş bir film yok.</h1>
+        <Footer />
+      </div>
     );
   }
 

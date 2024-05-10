@@ -17,7 +17,8 @@ function WatchLater() {
   if (!watchLater || watchLater.length === 0) {
     return (
       <div className="not-found">
-        Henüz izlemek için kaydedilmiş bir film yok.
+        <h1>Henüz izlemek için kaydedilmiş bir film yok.</h1>
+        <Footer />
       </div>
     );
   }
